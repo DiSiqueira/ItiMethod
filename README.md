@@ -15,15 +15,15 @@ ItiMethod is stable. Pull Requests [are welcome](https://github.com/DiSiqueira/I
 ### Go Get
 
 ```bash
-$ go get github.com/DiSiqueira/ItiMethod
+$ go get github.com/DiSiqueira/itimethod
 ```
 
 ## Basic usage
 
 ```go
-	r := itinerary.NewRouter()
+r := itinerary.NewRouter()
 
-	r.NewPath(GetHandler).AddMatcher(itimethod.New("GET"))
+r.NewPath(GetHandler).AddMatcher(itimethod.New("GET"))
 ```
 
 ## Full Example
